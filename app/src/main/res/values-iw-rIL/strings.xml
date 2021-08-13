@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MyMathQuiz</string>
+
+    <string name="start">התחל משחק</string>
+    <string name="press_start">לחץ על "התחל משחק"</string>
+    <string name="button0">כפתור</string>
+    <string name="tv_timer">שדה טיימר</string>
+    <string name="tv_score">שדה ניקוד</string>
+    <string name="tv_questions">שדה שאלות</string>
+    <string name="no_sec">0שניות</string>
+    <string name="no_pts">0נקודות</string>
+    <string name="tv_bottommsg">תיבת טקסט סה"כ</string>
+    <string name="button2">כפתור</string>
+    <string name="button3">כפתור</string>
+    <string name="button1" tools:ignore="Typos">כפתור</string>
+    <string name="answer">תשובה</string>
+    <string name="button">כפתור</string>
+    <string name="about_us">מי אנחנו?</string>
+    <string name="rate_us">דרג אותנו</string>
+    <string name="language">שפה</string>
+    <string name="sound">שמע</string>
+    <string name="all_rights_reserved_version_1_july_2021">כל הזכויות שמורות. גרסא 1. יולי 2021.</string>
+    <string name="settings">הגדרות</string>
+    <string name="play">התחל משחק</string>
+    <string name="score_table">טבלת ניקוד</string>
+    <string name="hello">שלום!</string>
+    <string name="background_image">תמונת רקע</string>
+    <string name="background">רקע</string>
+    <string name="homescreen_background">תמונת רקע דף בית</string>
+    <string name="exit">יציאה</string>
+    <string name="submit">שלח</string>
+    <string name="ok">אישור</string>
+    <string name="sec">שניות</string>
+    <string name="time_up">תם הזמן!</string>
+    <string name="choose_lang">אנא בחר שפה</string>
+    <string name="thank_you_msg">הודעת תודה רבה</string>
+    <string name="welcome_to_app">ברוכים הבאים לאפליקציית המשחק! MyMathQuiz</string>
+    <string name="sound_off">כבה שמע</string>
+    <string name="sound_on">הדלק שמע</string>
+    <string name="level_3">Level_3</string>
+    <string name="level_2">Level_2</string>
+    <string name="level_1">Level_1</string>
+    <string name="btn_level2">btn_level2</string>
+    <string name="btn_level3">btn_level3</string>
+    <string name="btn_level1">btn_level1</string>
+    <string name="summuration">סכום</string>
+    <string name="subtraction">הפרש</string>
+    <string name="sum_sub">סכום + הפרש</string>
+    <string name="secs_left">זמן נותר</string>
+    <string name="correct_answers">תשובות נכונות</string>
+    <string name="total_score">סה"כ ניקוד</string>
+    <string name="cancel">ביטול</string>
+    <string name="send_bt">שלח</string>
+    <string name="enter_name">הקלד שם</string>
+    <string name="next">הבא</string>
+    <string name="previous">הקודם</string>
+
+    <string name="you_won">ניצחת!! הניקוד שלך:</string>
+    <string name="your_score">הניקוד שלך: </string>
+
+    <string name="app_explnation">משחק זה נוצר כדי לעזור לכם לשפר את הידע בחשבון. המשחק מיוחד לכל מי שמעוניין ללמוד ולהנות תוך כדי.\nהמשימה- לענות על כמה שיותר שאלות נכונות בפרק הזמן הניתן. \n\nמקווים שתהנו ממנו!</string>
+
+</resources>

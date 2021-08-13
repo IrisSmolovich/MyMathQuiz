@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/background_style"
+    tools:context=".SettingsActivity">
+
+    <ImageView
+        android:id="@+id/img_thankyou"
+        android:layout_width="310dp"
+        android:layout_height="164dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="@string/thank_you_msg"
+        android:paddingTop="20dp"
+        app:srcCompat="@drawable/thank_you" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:rating="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FF9800"
+        android:text="@string/submit"
+        app:backgroundTint="#FF9800" />
+
+
+</LinearLayout>

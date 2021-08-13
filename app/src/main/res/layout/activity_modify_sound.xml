@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifySoundActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="412dp"
+        android:layout_height="414dp"
+        android:contentDescription="@string/sound_on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/photo4"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/btn_soundon"
+        android:layout_width="220dp"
+        android:layout_height="140dp"
+        android:background="@drawable/white_shape3"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:paddingTop="10dp"
+        android:text="@string/sound_on"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.187"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btn_soundoff"
+        android:layout_width="220dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="58dp"
+        android:background="@drawable/white_shape3"
+        android:contentDescription="@string/sound_off"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:paddingTop="10dp"
+        android:text="@string/sound_off"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_soundon"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/btn_exitsound"
+        android:layout_width="66dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/white_shape3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

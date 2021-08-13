@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amita</item>
+        <item>@font/coiny</item>
+        <item>@font/grand_hotel</item>
+        <item>@font/modak</item>
+        <item>@font/shojumaru</item>
+    </array>
+</resources>

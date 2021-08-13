@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MyMathQuiz</string>
+
+    <string name="start">start</string>
+
+    <string name="button0">button0</string>
+    <string name="tv_timer">tv_timer</string>
+    <string name="tv_score">tv_score</string>
+    <string name="tv_questions">tv_questions</string>
+    <string name="tv_bottommsg">tv_bottommmsg</string>
+    <string name="no_sec">0Sec</string>
+    <string name="no_pts">0pts</string>
+    <string name="button2">button2</string>
+    <string name="button3">button3</string>
+    <string name="button1" tools:ignore="Typos">button1</string>
+    <string name="answer">answer</string>
+    <string name="button">button</string>
+    <string name="about_us">about us</string>
+    <string name="rate_us">rate us</string>
+    <string name="language">language</string>
+    <string name="sound">sound</string>
+    <string name="all_rights_reserved_version_1_july_2021">All rights reserved. Version: 1, July 2021</string>
+    <string name="settings">Settings</string>
+    <string name="play">Play</string>
+    <string name="score_table">Score table</string>
+    <string name="hello">Hello!</string>
+    <string name="background_image">Background_image</string>
+    <string name="background">Background</string>
+    <string name="homescreen_background">homescreen_background</string>
+    <string name="exit">Exit</string>
+    <string name="press_start">Press Start</string>
+    <string name="submit">Submit</string>
+    <string name="thank_you_msg">thank you msg</string>
+    <string name="ok">OK</string>
+    <string name="sec">sec</string>
+    <string name="time_up">Time is up!</string>
+    <string name="choose_lang">Please choose a language</string>
+    <string name="welcome_to_app">Welcome to MyMathQuiz app!</string>
+    <string name="app_explnation">MyMathQuiz was designed in order to improve your math abilities. \nThis game is for everyone who likes to challenge himself and learn new things along the way. \nYour goal- to answer as many correct question in the given time! \n\n Hope you enjoy it!</string>
+    <string name="sound_off">sound OFF</string>
+    <string name="sound_on">Sound ON</string>
+    <string name="level_3">Level_3</string>
+    <string name="level_2">Level_2</string>
+    <string name="level_1" tools:ignore="Typos">Level_1</string>
+    <string name="btn_level2">btn_level2</string>
+    <string name="btn_level3">btn_level3</string>
+    <string name="btn_level1" tools:ignore="Typos">btn_level1</string>
+    <string name="summuration">Summation</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="sum_sub">Sum + Sub</string>
+    <string name="secs_left">Secs left</string>
+    <string name="correct_answers">Correct answers</string>
+    <string name="total_score">Total score</string>
+    <string name="cancel">cancel</string>
+    <string name="send_bt">send</string>
+    <string name="enter_name">enter_name</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="you_won">You won!! Your score:</string>
+    <string name="your_score">Your score: </string>
+
+
+</resources>
