@@ -8,17 +8,17 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="412dp"
-        android:layout_height="414dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/sound_on"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498"
-        app:srcCompat="@drawable/photo4"
-        android:scaleType="fitXY"/>
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home_screen_background_thin" />
 
     <Button
         android:id="@+id/btn_soundon"
@@ -35,7 +35,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.187"
+        app:layout_constraintVertical_bias="0.233"
         tools:ignore="RtlHardcoded" />
 
     <Button
@@ -55,17 +55,17 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_soundon"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.759"
         tools:ignore="RtlHardcoded" />
 
     <ImageView
         android:id="@+id/btn_exitsound"
         android:layout_width="66dp"
         android:layout_height="57dp"
-        android:layout_marginTop="356dp"
         android:background="@drawable/white_shape3"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:srcCompat="@android:drawable/ic_menu_revert" />
